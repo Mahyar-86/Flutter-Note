@@ -8,7 +8,7 @@ Android - Ios - Mac - Web
 
 How to learn create like this : https://youtu.be/fL8Ujzh5DQc
 
-# Screen Shots
+## Screenshots
 ![Home](/Screenshots/1.png)
 ![Editor](/Screenshots/2.png)
 ![Reader](/Screenshots/3.png)
