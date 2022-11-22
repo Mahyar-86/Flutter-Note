@@ -1,16 +1,14 @@
-# note
+# Flutter note
 
-A new Flutter project.
+Simple online note application based on Firebase
 
-## Getting Started
+Flutter version : 3.3.7
 
-This project is a starting point for a Flutter application.
+Android - Ios - Mac - Web
 
-A few resources to get you started if this is your first Flutter project:
+How to learn create like this : https://youtu.be/fL8Ujzh5DQc
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Screen Shots
+![Home](/Screenshots/1.png)
+![Editor](/Screenshots/2.png)
+![Reader](/Screenshots/3.png)

@@ -13,8 +13,8 @@ class NoteEditorScreen extends StatefulWidget {
 class _NoteEditorScreenState extends State<NoteEditorScreen> {
   int color_id = Random().nextInt(AppStyle.cardsColor.length);
   String date = DateTime.now().toString();
-  TextEditingController _titleController = TextEditingController();
-  TextEditingController _mainController = TextEditingController();
+  final TextEditingController _titleController = TextEditingController();
+  final TextEditingController _mainController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -73,9 +73,9 @@ class _NoteEditorScreenState extends State<NoteEditorScreen> {
             "note_content": _mainController.text,
             "color_id": color_id
           }).then((value) {
-            print(value.id);
+            debugPrint(value.id);
             Navigator.pop(context);
-          }).catchError((error) => print("Faild $error"));
+          }).catchError((error) => debugPrint("failed $error"));
         },
         child: const Icon(Icons.save),
       ),
